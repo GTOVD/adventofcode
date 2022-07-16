@@ -1,6 +1,6 @@
 # Advent of Code
 
-## Uploaded as completed
+## Uploaded as completed, stored in the src folder. All work done in the src/index.ts
 
 ### Get started
 
