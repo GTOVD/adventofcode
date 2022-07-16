@@ -1,5 +1,6 @@
-#Advent of Code
-##All days as created
+# Advent of Code
+
+## Uploaded as completed
 
 ### Get started
 
