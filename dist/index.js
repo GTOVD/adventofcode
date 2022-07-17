@@ -18,11 +18,9 @@ const keypad = [
 ];
 let locationOnPadX = 2;
 let locationOnPadY = 0;
-console.log(keypad[locationOnPadX][locationOnPadY]);
 const data = input.split("\n");
-console.log(data);
 let currentNumber = data.map((line) => {
-    [...line].forEach((direction, index) => {
+    [...line].forEach((direction) => {
         if (direction === "U") {
             locationOnPadX -= 1;
             if (locationOnPadX < 0)

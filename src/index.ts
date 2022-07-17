@@ -22,14 +22,10 @@ const keypad: any[][] = [
 let locationOnPadX: number = 2;
 let locationOnPadY: number = 0;
 
-console.log(keypad[locationOnPadX][locationOnPadY]);
-
 const data: string[] = input.split("\n");
 
-console.log(data);
-
 let currentNumber = data.map((line: string) => {
-    [...line].forEach((direction: string, index: number) => {
+    [...line].forEach((direction: string) => {
         if (direction === "U") {
             locationOnPadX -= 1;
             if (locationOnPadX < 0) locationOnPadX = 0;
