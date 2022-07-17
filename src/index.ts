@@ -11,13 +11,7 @@ ULUDLLUDDULRUURDRURDUDUDLUURDDDRRLUDURURDRURRLDRDURLRLLRRDDRRDRRRUULURUDURUDULRR
 // LURDL
 // UUUUD`;
 
-const keypad: [
-    number | string,
-    number | string,
-    number | string,
-    number | string,
-    number | string
-][] = [
+const keypad: (number | string)[][] = [
     ["", "", 1, "", ""],
     ["", 2, 3, 4, ""],
     [5, 6, 7, 8, 9],
